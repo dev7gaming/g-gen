@@ -1,0 +1,31 @@
+body {
+	background-color: #e9ecef;
+	background-image: "https://cdn.discordapp.com/icons/1042440481755381800/3fbeff535015243bfa757b892e1edb79.png?size=2048";
+}
+
+img, p {
+	display: inline-block;
+}
+
+img {
+	size: 100px;
+}
+
+::selection {
+	color: #18191c;
+	background: #0073ff;
+}
+
+::-moz-selection {
+	color: #18191c;
+	background-color: #b3d4fc;
+}
+
+
+element.style {
+    background: rgb(0 0 0 / 88%);
+    opacity: 50;
+    border-radius: 5px;
+    color: white;
+    border-style: dashed;
+}
